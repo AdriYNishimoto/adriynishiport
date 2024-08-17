@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Nishimoto</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css"
+    integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <a href="#">Adri<span>YNishimoto.</span></a>
+    </div>
+    <ul class="menu">
+      <li>
+        <a href="#">
+          <button type="button">
+            <span>Home</span>
+            <span class="fa-solid fa-house"></span>
+          </button>
+        </a>
+      </li>
+      <li>
+        <a href="#sobre">
+          <button type="button">
+            <span>About</span>
+            <span class="fa-solid fa-address-card"></span>
+          </button>
+        </a>
+      </li>
+      <li>
+        <a href="#servicos">
+          <button type="button">
+            <span>Services</span>
+            <span class="fa-solid fa-sliders"></span>
+          </button>
+        </a>
+      </li>
+      <li>
+        <a href="#projetos">
+          <button type="button">
+            <span>Projects</span>
+            <span class="fa-solid fa-mountain-sun"></span>
+          </button>
+        </a>
+      </li>
+      <li>
+        <a href="#contato">
+          <button type="button">
+            <span>Contact</span>
+            <span class="fa-solid fa-headset"></span>
+          </button>
+        </a>
+      </li>
+    </ul>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+  <!-- HOME -->
+  <section class="home" id="home">
+    <div class="destaque-texto">
+      <div class="ola">
+        <p>Hi, i'm</p>
+      </div>
+      <div class="destaque-nome">
+        <span id="SliderValue"></span>
+      </div>
+      <div class="destaque-texto-info">
+        <p>
+          My name is Adriano Nishimoto! I am a Software Engineering student.
+        </p>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/adriano-yudi-r-nishimoto-75a756266/" target="_blank"><i
+            class="fab fa-linkedin" style="color: crimson"></i></a>
+        <a href="https://github.com/AdriYNishimoto" target="_blank"><i class="fab fa-github"
+            style="color: crimson"></i></a>
+        <!-- <a href="#"
+            ><i class="fab fa-instagram" style="color: crimson"></i
+          ></a> -->
+      </div>
+    </div>
+    <div class="home-img">
+      <img src="image/perfil-Photoroom.png" alt="" />
+    </div>
+  </section>
+  <!-- SOBRE -->
+  <section class="sobre" id="sobre">
+    <div class="max-width">
+      <div class="sobre-conteiner">
+        <div class="sobre">
+          <h1 class="titulo_h1">About me</h1>
+          <p>
+            I am Adriano Yudi Ribas Nishimoto, a Software Engineering student
+            at FIAP, and I am also pursuing a technical degree in Systems
+            Development at SENAC - Hub Academy. I am 21 years old and have
+            experience in Python and C#/.NET, as well as knowledge in
+            JavaScript and React. My goal is to grow professionally in the
+            full stack development field, with a particular focus on back-end
+            development.
+          </p>
+          <div class="sobre_social">
+            <i class="fab fa-html5" style="color: crimson"></i>
+            <i class="fab fa-css3" style="color: crimson"></i>
+            <i class="fab fa-js" style="color: crimson"></i>
+            <i class="fab fa-react" style="color: crimson"></i>
+            <i class="fab fa-python" style="color: crimson"></i>
+            <i class="fa-sharp fa-solid fa-c fa-sharp" style="color: crimson">#</i>
+          </div>
+          <a href="download/Currículo AdriYNishimoto.pdf" class="btn-b" download="AdriYNishimoto.pdf">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SERVIÇOS -->
+  <section class="servicos" id="servicos">
+    <h2 class="cabecalho">My <span>Services</span></h2>
+    <div class="serv-conteudo">
+      <div class="servicos-lista">
+        <!-- <div>
+        <i class="fa-brand fa-app-store"></i>
+        <h2>Desenvolvimento App</h2>
+        <p></p>
+        <a href="#">Learn more..</a>
+        </div> -->
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Development</h2>
+          <p></p>
+          <a href="#">Learn more..</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-server"></i>
+          <h2>Backend Development</h2>
+          <p></p>
+          <a href="#">Learn more..</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- PROJETOS -->
+  <section class="projetos" id="projetos">
+    <h2 class="cabecalho">My <span>Projects</span></h2>
+    <div class="projetos-conteudo">
+      <div class="linha">
+        <img src="image/portindex.png" alt="" />
+        <div class="main-linha">
+          <div class="linha-texto">
+            <h5>Portfolio</h5>
+          </div>
+          <div class="linha-icon">
+            <i class="bx bxl-github"></i>
+          </div>
+        </div>
+        <a href="https://github.com/AdriYNishimoto/adriynishiport.github.io">
+          <h4>Link to code</h4>
+        </a>
+      </div>
+      <div class="linha">
+        <img src="image/Home.png" alt="" />
+        <div class="main-linha">
+          <div class="linha-texto">
+            <h5>GreenConnect</h5>
+          </div>
+          <div class="linha-icon">
+            <i class="bx bxl-github"></i>
+          </div>
+        </div>
+        <a href="https://github.com/AdriYNishimoto/greenconnect-react" target="_blank">
+          <h4>Link to code</h4>
+        </a>
+      </div>
+      <div class="linha">
+        <img src="image/index.html.png" alt="" />
+        <div class="main-linha">
+          <div class="linha-texto">
+            <h5>SOJIA</h5>
+          </div>
+          <div class="linha-icon">
+            <i class="bx bxl-github"></i>
+          </div>
+        </div>
+        <a href="https://github.com/AdriYNishimoto/sojia" target="_blank">
+          <h4>Link to code</h4>
+        </a>
+      </div>
+      <div class="linha">
+        <img src="image/calculadora.png" alt="" />
+        <div class="main-linha">
+          <div class="linha-texto">
+            <h5>Calculadora</h5>
+          </div>
+          <div class="linha-icon">
+            <i class="bx bxl-github"></i>
+          </div>
+        </div>
+        <a href="https://github.com/AdriYNishimoto/Calculadora" target="_blank">
+          <h4>Link to code</h4>
+        </a>
+      </div>
+
+      <!-- <div class="linha">
+          <img src="" alt="" />
+          <div class="main-linha">
+            <div class="linha-texto">
+              <h5>Web Desing</h5>
+            </div>
+            <div class="linha-icon">
+              <i class="bx bxl-github"></i>
+            </div>
+          </div>
+          <h4>Link to code</h4>
+        </div> -->
+      <!-- <div class="linha">
+          <img src="" alt="" />
+          <div class="main-linha">
+            <div class="linha-texto">
+              <h5>Web Desing</h5>
+            </div>
+            <div class="linha-icon">
+              <i class="bx bxl-github"></i>
+            </div>
+          </div>
+          <h4>Link to code</h4>
+        </div> -->
+    </div>
+  </section>
+  <!-- CONTATO -->
+  <section class="contato" id="contato">
+    <h2 class="cabecalho">Contact</h2>
+    <form action="https://formsubmit.co/b1f85084675a2bff33ce8646d727977d" method="post">
+      <div class="input-box">
+        <input type="text" name="full_name" placeholder="Full Name" required />
+        <input type="email" name="email" placeholder="E-mail Address" required />
+      </div>
+      <div class="input-box">
+        <input type="number" name="phone" placeholder="Phone Number" />
+        <input type="text" name="subject" placeholder="Subject" />
+      </div>
+      <textarea name="message" cols="30" rows="10" placeholder="Your message"></textarea>
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+      <input type="submit" value="Send Message" class="btn-t" />
+    </form>
+
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="social">
+      <a href="https://github.com/AdriYNishimoto"><i class="bx bxl-github"></i></a>
+      <a href="https://www.linkedin.com/in/adriano-yudi-r-nishimoto-75a756266/"><i class="bx bxl-linkedin"></i></a>
+      <!-- <a href="#"><i class="bx bxl-instagram"></i></a> -->
+    </div>
+    <p class="copyright">© 2024 AdriYNishimoto | All rights reserved</p>
+  </footer>
+</body>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="script.js"></script>
+
+</html>
