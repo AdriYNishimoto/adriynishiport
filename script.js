@@ -1,5 +1,5 @@
 var sliderIndex = 0;
-var sliderCounter = ["Developer", "Code", "Web Design"];
+var sliderCounter = ["Programador", "Dev Backend", "Dev Web"];
 
 var sliderValue = document.querySelector("#SliderValue");
 
